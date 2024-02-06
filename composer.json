@@ -1,0 +1,22 @@
+{
+  "name": "inotechno/watsap-broadcast",
+  "description": "Watsap.id Package PHP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Inotechno\\WatsapBroadcast\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ahmad Fatoni",
+      "email": "2inotechno0@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "scripts": {
+    "autoload": "composer dump-autoload"
+  }
+}
