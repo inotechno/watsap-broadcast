@@ -1,6 +1,6 @@
 <?php
 
-namespace Watsap;
+namespace Inotechno\WatsapBroadcast;
 
 class Watsap
 {
@@ -137,7 +137,7 @@ class Watsap
             'footer' => $data['footer'] ?? "",
             'message' => $data['message'],
             'url' => $data['media_url'] ?? "",
-            'button' => $data
+            'button' => $data['button']
         ];
 
         $curl = curl_init();
